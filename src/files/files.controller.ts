@@ -13,7 +13,6 @@ export class FilesController {
     private readonly configService: ConfigService,
     private readonly filesService: FilesService) { }
 
-
   @Get("product/:imageName")
   findProductImage(
     @Res() res: Response,
